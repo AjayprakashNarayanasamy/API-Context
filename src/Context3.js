@@ -2,7 +2,7 @@ import React from 'react';
 import { Context } from './Context';
 
 class Context3 extends React.Component {
- 
+ // It is not possible to use functional component.
   static contextType = Context;
   constructor() {
     super();
