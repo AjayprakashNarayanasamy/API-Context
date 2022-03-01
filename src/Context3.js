@@ -2,7 +2,7 @@ import React from 'react';
 import { Context } from './Context';
 
 class Context3 extends React.Component {
- // It is not possible to use functional component.
+ // It is not possible to use functional component. When state is given as keyword it will throw error when converted to functional component. It is better to use class when we use the stattic keyword. 
   static contextType = Context;
   constructor() {
     super();
