@@ -4,7 +4,7 @@ import { Context } from "./Context";
 function Context2()
 {
   const context13 =  React.useContext(Context)
-  // Converted into functional component
+  // Converted into functional component. The component given as class component converted into functional component.
 return(
    <Context.Consumer>
 {
